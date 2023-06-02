@@ -81,3 +81,22 @@ mode: 0771
 user: AID_SYSTEM
 group: AID_SYSTEM
 caps: 0
+
+# diy
+[system/xbin/]
+mode: 0550
+user: AID_BRAWN_SHELL
+group: AID_BRAWN_SHELL
+caps: 0
+
+[system/xbin/brawnShell]
+mode: 0550
+user: AID_BRAWN_SHELL
+group: AID_BRAWN_SHELL
+caps: 0
+
+[system/xbin/su]
+mode: 0550
+user: AID_BRAWN_SHELL
+group: AID_BRAWN_SHELL
+caps: 0
